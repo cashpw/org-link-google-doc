@@ -41,7 +41,7 @@
   "Opens an google-doc type link."
   (let ((uri
          (org-link-google-doc--build-uri
-          id)))
+          google-doc-id)))
     (browse-url
      uri
      arg)))
